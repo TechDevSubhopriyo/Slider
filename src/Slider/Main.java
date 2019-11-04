@@ -11,7 +11,7 @@ public class Main {
 		Gameplay gp=new Gameplay();
 		obj.setBounds(10,10,820,620);
 		obj.setTitle("Slider");
-		obj.setResizable(true);
+		obj.setResizable(false);
 		obj.setVisible(true);
 		obj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		obj.add(gp);
